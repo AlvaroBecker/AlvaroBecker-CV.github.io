@@ -131,13 +131,13 @@ function TimelineItem({
 
 function App() {
   const technicalSkills = {
-    languages: ["Python", "Java", "JavaScript", "TypeScript", "CoffeeScript", "PHP", "HTML"],
-    databases: ["PostgreSQL", "MySQL", "MongoDB"],
-    frameworks: ["Angular", "React", "Node.js", "Django", "TensorFlow", "scikit-learn", "Pandas"],
+    languages: ["Python", "Java", "JavaScript", "TypeScript", "CoffeeScript", "PHP", "HTML", ".NET Framework", "Arcade"],
+    databases: ["PostgreSQL", "MySQL", "MongoDB", "Microsoft SQL Server"],
+    frameworks: ["Angular", "React", "Node.js", "Django", "TensorFlow", "scikit-learn", "Pandas", "FastAPI", "Uvicorn"],
     cloud: ["Google Cloud Platform", "AWS", "Oracle Cloud"],
-    tools: ["Git", "GitHub", "JIRA", "VS Code", "Jupyter Notebook", "Linux"],
+    tools: ["Git", "GitHub", "JIRA", "VS Code", "Jupyter Notebook", "Linux", "ArcGIS", "Esri", "TOMTOM", "Qdrant"],
     ai: ["Deep Learning", "Machine Learning", "Data Mining", "NLP", "Redes Neuronales", "Prompt Engineering"],
-    scripting: ["Batch Script (.bat)", "Shell Script (.sh)"]
+    scripting: ["Batch Script (.bat)", "Shell Script (.sh)", "Bash"]
   }
 
   const competencyLevels = [
@@ -157,6 +157,22 @@ function App() {
   ]
 
   const workHistory = [
+    {
+      date: "Oct 2024 - Presente",
+      title: "System Engineer, Delivery Network",
+      company: "Indra Minsait",
+      location: "Santiago",
+      description: [
+        "Desarrollo y mantenimiento de aplicaciones GIS para IGEA y MTG (Metrogas)",
+        "MTG: Desarrollo de feature de seguimiento en vivo de móviles para órdenes de servicio usando tecnologías GIS y TOMTOM",
+        "MTG: Creación de dashboards con ArcGIS Web Features y herramientas ArcGIS, incluyendo scripting en Python, Arcade y SQL para capas y vistas",
+        "MTG: Automatización de limpieza de logs con Microsoft SQL Server Manager y tareas automatizadas con Python",
+        "IGEA: Desarrollo de chatbot usando Qdrant, Python FastAPI, Uvicorn y React para frontend",
+        "IGEA: Automatización de limpieza de logs con scripts Bash en servidores Linux on-premise",
+        "Stack MTG: Python, JavaScript, .NET Framework, HTML, Microsoft SQL Server, ArcGIS, TOMTOM",
+        "Stack IGEA: Java, PostgreSQL, JDBC 8, Python, React, Qdrant"
+      ]
+    },
     {
       date: "Oct 2023 - Ago 2024",
       title: "System Engineer",
