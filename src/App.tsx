@@ -792,10 +792,10 @@ function App() {
                     LinkedIn
                   </a>
                 </div>
-                  >
-                    LinkedIn
-                  </a>
-                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
       </div>
     </TooltipProvider>
   )
