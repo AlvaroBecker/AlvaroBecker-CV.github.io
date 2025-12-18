@@ -154,7 +154,7 @@ function App() {
   const workHistory = [
     {
       date: "Oct 2023 - Ago 2024",
-      title: "System Engineer Junior",
+      title: "System Engineer",
       company: "Indra Minsait",
       location: "Santiago, CEN",
       description: [
