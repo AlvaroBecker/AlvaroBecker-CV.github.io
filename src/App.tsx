@@ -536,11 +536,10 @@ function App() {
                   </h1>
                   
                   <p className={`text-lg sm:text-xl max-w-2xl leading-relaxed ${isDark ? 'text-muted-foreground' : lightMuted}`}>
-                    {t.intro}{" "}
-                    <span className={isDark ? 'text-accent' : lightAccent}>{t.backend}</span>,{" "}
-                    <span className={isDark ? 'text-primary' : lightPrimary}>{t.dataProcessing}</span> {lang === "es" ? "y" : "and"}{" "}
-                    <span className={isDark ? 'text-accent' : lightAccent}>{t.automation}</span>. 
-                    {t.passion}
+                    {lang === "es" 
+                      ? "Ingeniero en Informática con enfoque integral en desarrollo de software, abarcando backend, gestión de datos y experiencia de usuario dentro de arquitecturas modernas. He llevado adelante proyectos personales end-to-end, priorizando eficiencia y calidad técnica. Interesado en metodologías actuales y programación asistida por IA para mejorar procesos. Busco profundizar en tecnologías emergentes como modelos de lenguaje natural, computación cuántica y sistemas avanzados de visualización, impulsando mi crecimiento y aprendizaje continuo."
+                      : "Computer Engineer with a comprehensive approach to software development, encompassing backend, data management, and user experience within modern architectures. I have led personal end-to-end projects, prioritizing efficiency and technical quality. Interested in current methodologies and AI-assisted programming to improve processes. I seek to deepen my knowledge in emerging technologies such as natural language models, quantum computing, and advanced visualization systems, driving my continuous growth and learning."
+                    }
                   </p>
                 </div>
 
