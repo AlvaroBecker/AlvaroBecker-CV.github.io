@@ -669,7 +669,7 @@ function App() {
               >
                 <motion.div variants={fadeInUp} className="flex items-center gap-3">
                   <Briefcase size={28} weight="duotone" className={isDark ? 'text-primary' : lightPrimary} />
-                  <h2 className="text-2xl sm:text-3xl font-bold">{t.workExperience}</h2>
+                  <h2 className={`text-2xl sm:text-3xl font-bold ${isDark ? '' : 'text-black'}`}>{t.workExperience}</h2>
                 </motion.div>
 
                 <div>
@@ -694,7 +694,7 @@ function App() {
               >
                 <motion.div variants={fadeInUp} className="flex items-center gap-3">
                   <GraduationCap size={28} weight="duotone" className={isDark ? 'text-accent' : lightAccent} />
-                  <h2 className="text-2xl sm:text-3xl font-bold">{t.education}</h2>
+                  <h2 className={`text-2xl sm:text-3xl font-bold ${isDark ? '' : 'text-black'}`}>{t.education}</h2>
                 </motion.div>
 
                 <motion.div variants={fadeInUp}>
@@ -736,7 +736,7 @@ function App() {
               >
                 <motion.div variants={fadeInUp} className="flex items-center gap-3">
                   <Certificate size={28} weight="duotone" className={isDark ? 'text-primary' : lightPrimary} />
-                  <h2 className="text-2xl sm:text-3xl font-bold">{t.certifications}</h2>
+                  <h2 className={`text-2xl sm:text-3xl font-bold ${isDark ? '' : 'text-black'}`}>{t.certifications}</h2>
                 </motion.div>
 
                 <div className="grid sm:grid-cols-2 gap-4">
