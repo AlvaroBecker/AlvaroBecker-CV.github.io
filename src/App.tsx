@@ -149,6 +149,11 @@ function App() {
     { name: "Ingeniería de Prompt", level: 80 },
     { name: "Trabajo en Equipo", level: 70 },
     { name: "Resolución de Problemas", level: 75 },
+    { name: "GitHub Copilot", level: 65 },
+    { name: "ChatGPT", level: 65 },
+    { name: "Midjourney", level: 65 },
+    { name: "GitHub Spark", level: 65 },
+    { name: "Gemini", level: 65 },
   ]
 
   const workHistory = [
